@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content ="width=device-widht, initial-scale=1.0">	
+		<meta http-equiv="X-UA-Compatible" content="ie-edge">
+		<title>Desafio</title>
+		
+		<!-- Jquery -->		
+		<script src="js/jquery-1.12.4.js"></script>
+		
+		<!--BootStrap-->
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		
+<style>
+		body{
+				padding:5px;
+			}
+		#tempo{
+				background-image: url("img/sol.jpg");
+				background-size: 100% 100%;
+				color:white;
+			}
+		select{
+				background:transparent !important;
+				color:#fff !important;
+			}
+		select option{
+				background-color:none !important;
+				color:black !important;
+			}					
+</style>
+</head>
+
+<body>
+
+<div style="margin-right:100%;" class="container" >
+	<div class="row">
+		<div  class="col-md-9" id="tempo">
+		</br>								
+			<div style="margin-top:-1%;" class="col-md-3">	
+				<div class="form-group">
+					<label  for="cidade"><img style="margin-top:-40%;"  src="img/nuvem1.png"> </label> &nbsp;
+					
+					
+					<label style="margin-bottom:15%;">Previsão </br> do Tempo </label>
+					</br></br>
+					
+					Escolha a Cidade:
+					<select name=""  id="cidade" class="form-control">
+						<option value="ssa"> Salvador</option>
+						<option value="fsa"> Feira de Santana</option>
+						<option value="lrf"> Lauro de Freitas </option>
+				
+					</select>
+						
+				</div>
+				</div>
+					
+				<div class="col-md-6" style="background-color:white; color: black;">
+					<div class="col-md-2">
+						<font color="grey">TER</font>
+						<img src="img/nuvem.png">
+						<span class="glyphicon glyphicon-arrow-up" style="color:blue;"></span><font color="grey">30º &nbsp; max</font>
+						<span class="glyphicon glyphicon-arrow-down" style="color:red"></span><font color="grey">19º &nbsp; min </font>
+					</div>
+					<div style="margin-left:4%;" class="col-md-2">
+						<font color="grey">QUA</font>
+						<img src="img/nuvem.png">
+						<span class="glyphicon glyphicon-arrow-up" style="color:blue;"></span><font color="grey">31º &nbsp; max</font>
+						<span class="glyphicon glyphicon-arrow-down" style="color:red;"></span><font color="grey">18º &nbsp; min
+					</div>
+					<div style="margin-left:4%;" class="col-md-2">
+						<font color="grey">QUI</font> 
+						<img src="img/nuvem.png">
+						<span class="glyphicon glyphicon-arrow-up" style="color:blue;"></span><font color="grey">31º &nbsp; max</font>
+						<span class="glyphicon glyphicon-arrow-down" style="color:red;"></span><font color="grey">18º &nbsp; min</font>
+					</div>	
+					<div style="margin-left:4%;"  class="col-md-2">
+						<font color="grey">SEX</font>
+						<img src="img/nuvem.png">
+						<span class="glyphicon glyphicon-arrow-up" style="color:blue;"></span><font color="grey">32º &nbsp; max</font>
+						<span class="glyphicon glyphicon-arrow-down" style="color:red;"></span><font color="grey">19º &nbsp; min</font>
+					</div
+				</div>
+			</div>	
+		</div>			
+	</div>
+
+	
+
+</body>
+</html>
